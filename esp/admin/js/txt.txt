@@ -1,0 +1,76 @@
+
+dashboard
+
+<i class="fa-solid fa-gauge"></i>
+
+table
+
+<i class="fa-solid fa-table-columns"></i>
+
+filter
+
+<i class="fa-solid fa-filter"></i>
+
+post
+
+<i class="fa-solid fa-signs-post"></i>
+
+setting
+
+<i class="fa-solid fa-gears"></i>
+
+logout
+
+<i class="fa-thin fa-right-from-bracket"></i>
+
+
+home
+
+<i class="fa-solid fa-house"></i>
+
+down load
+
+<i class="fa-solid fa-download"></i>
+
+upload
+
+<i class="fa-solid fa-upload"></i>
+
+info
+
+<i class="fa-solid fa-info"></i>
+
+user
+
+<i class="fa-solid fa-users"></i>
+
+database
+<i class="fa-solid fa-database"></i>
+
+angel up
+
+<i class="fa-solid fa-angle-up"></i>
+
+angel down
+
+<i class="fa-solid fa-angle-down"></i>
+
+angleright
+
+<i class="fa-solid fa-chevron-right"></i>
+
+export
+
+<i class="fa-solid fa-file-export"></i>
+
+cloud down
+
+<i class="fa-solid fa-cloud-arrow-down"></i>
+
+cloud up
+
+<i class="fa-solid fa-cloud-arrow-up"></i>
+
+add post file
+
+<i class="fa-solid fa-file-circle-plus"></i>

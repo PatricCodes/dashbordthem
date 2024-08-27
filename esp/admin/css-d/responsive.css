@@ -1,0 +1,42 @@
+
+@media (max-width: 1063px) {
+
+    
+.top-part .card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tb{
+   height: auto;
+}
+}
+
+/* add-admin */
+@media (max-width: 653px){
+    
+    .box{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+}
+
+
+/* poas o responsive */
+
+@media (max-width: 1040px){
+    
+    .parts{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .wiget-photo{
+
+        justify-content: left;
+        margin: 30px 3px;
+    }
+}

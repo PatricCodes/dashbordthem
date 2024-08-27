@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+:root{
+    --bs-green: #198754;
+    --bs-indigo: #6610f2;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-light: #f8f9fa;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-dark-border-subtle: #adb5bd;
+    --bs-highlight-bg: #fff3cd;
+    --bs-border-color: #dee2e6;
+    --white:white;
+    --white-smoke:whitesmoke;
+    --bs-form-valid-color: #198754;
+    --skyblu: skyblue;
+    --scr:#adb5bd;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bs-light);
+    
+}
+
+.container{
+    padding: 20px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+header h1{
+    font-size: 46px;
+    color: var(--skyblu);
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase ;
+}
+
+header h2{
+    font-size: 19px;
+    font-weight: 300;
+    color: var(--skyblu);
+    margin-bottom: 60px;
+    text-transform: capitalize ;
+}
+form{
+    background: var(--white);
+    padding: 10px;
+
+}
+
+label{
+    font-size: 17px;
+    font-weight: 500;
+    color:black;
+    text-transform: capitalize ;
+}
+
+label::after{
+    content: "*";
+    color: tomato;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.box{
+    margin: 10px 0px;
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+    overflow: none;
+}
+
+.box input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid var(--bs-dark-border-subtle);
+    padding:0px 20px;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    outline: none;
+    background-color: white;
+    transition: .4s;
+}
+
+.box input:focus{
+
+    border-color: var(--skyblu);
+    background-color: whitesmoke ;
+}
+
+::placeholder{
+    font-size: 17px;
+    text-transform: capitalize ;
+}
+
+.btn-group{
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.btn-group a, button{
+    padding: 8px 19px;
+    background-color: var(--skyblu);
+    border-radius: 5px;
+    text-transform: capitalize ;
+}
+
+.btn-group a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.btn-group button{
+
+    border: none;
+    background: var(--bs-form-valid-color);
+    color: white;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: .4s;
+
+}
+
+
+.box01 {
+    margin: 10px 0px;
+    width: 600px;
+    height: 50px;
+   border-radius: 10px;
+}
+.box01 select{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    font-family: "poppins", sans-serif;
+    transition: .4s;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    text-align: center;
+    text-transform: capitalize;
+    color: gray;
+    border: 2px solid var(--bs-dark-border-subtle);
+
+}
+
+.box01 select:focus{
+    border: 2px solid var(--skyblu);
+    background-color: var(--white-smoke);
+}
+
+.box01  option {
+
+    padding: 20px 0px;
+}
+
+.box02{
+    margin: 10px 0px;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+   
+}
+
+.box02 textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-family: "poppins", sans-serif;
+    font-size: 19px;
+    padding: 10px;
+    border: 2px solid var(--bs-dark-border-subtle);
+    border-radius: 10px;
+    outline: none;
+    transition: .4s;
+    
+    
+  
+}
+
+.box02 textarea:focus{
+   
+    border: 2px solid var(--skyblu);
+    background-color: var(--white-smoke);
+}
+
+.parts{
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+.wiget-photo{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.image-cnt{
+    height: 460px ;
+    /* border: 0px solid var(--scr); */
+    width: 350px;
+    padding: 10px;
+    overflow-y: scroll ;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.image-cnt::-webkit-scrollbar-thumb{
+display: none;
+}
+
+
+
+.img-c{
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: transparent;
+    margin: 8px 0.5rem;
+    
+
+}
+
+.img-c img{
+
+    width: 160px;
+    height: 70px;
+   border-radius: 10px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.data p{
+
+    font-family: "poppins", sans-serif;
+    color: dodgerblue;
+    font-weight: 0;
+    text-transform: capitalize;
+    font-size: 12px;
+    line-height: 17px;
+
+}
+
+#time{
+    color: skyblue;
+    font-size: 9px;
+    font-weight: 500;
+}

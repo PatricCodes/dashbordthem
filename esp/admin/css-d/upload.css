@@ -1,0 +1,120 @@
+main{
+
+    padding: 20px;
+  
+}
+.tp01{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 16px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+
+}
+
+.frm{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+}
+
+.frm form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frm form h2{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: skyblue;
+}
+
+.frm form .box{
+    
+    height: 40px ;
+    width: 450px;
+    border: 2px solid skyblue ;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.frm form .box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.frm form .box input::-webkit-file-upload-button{
+    height: 100%;
+    width: 180px;
+    background-color:skyblue;
+    border-radius: 20px;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 15px;
+    outline: none ;
+    border: none;
+}
+
+.frm form button{
+
+    margin-top: 20px;
+    width: 450px;
+    padding: 8px 0px;
+    background: skyblue;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.wiget{
+    background-color: aqua;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.wiget .ctn01{
+    height: 390px;
+    width: 350px ;
+    border: 2px solid skyblue;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.wiget .ctn01 img{
+    width: 100px;
+}
+
+.data-ctn01{
+    display: flex;
+    gap: 20px;
+    width: 320px;
+}
+
+.data-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data-d h2{
+    font-size: 17px;
+    font-family: "poppins", sans-serif;
+    text-transform: capitalize;
+}

@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+:root{
+    --bs-green: #198754;
+    --bs-indigo: #6610f2;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-light: #f8f9fa;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-dark-border-subtle: #adb5bd;
+    --bs-highlight-bg: #fff3cd;
+    --bs-border-color: #dee2e6;
+    --white:white;
+    --white-smoke:whitesmoke;
+    --bs-form-valid-color: #198754;
+    --skyblu: skyblue;
+    --scr:#adb5bd;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bs-light);
+    
+}
+
+.container{
+    padding: 20px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+header h1{
+    font-size: 46px;
+    color: var(--skyblu);
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase ;
+}
+
+header h2{
+    font-size: 19px;
+    font-weight: 300;
+    color: var(--skyblu);
+    margin-bottom: 60px;
+    text-transform: capitalize ;
+}
+form{
+    background: var(--white);
+    padding: 10px;
+
+}
+
+label{
+    font-size: 17px;
+    font-weight: 500;
+    color:black;
+    text-transform: capitalize ;
+}
+
+label::after{
+    content: "*";
+    color: tomato;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.box{
+    margin: 10px 0px;
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+    overflow: none;
+}
+
+.box input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid var(--bs-dark-border-subtle);
+    padding:0px 20px;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    outline: none;
+    background-color: white;
+    transition: .4s;
+}
+
+.box input:focus{
+
+    border-color: var(--skyblu);
+    background-color: whitesmoke ;
+}
+
+::placeholder{
+    font-size: 17px;
+    text-transform: capitalize ;
+}
+
+.btn-group{
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.btn-group a, button{
+    padding: 8px 19px;
+    background-color: var(--skyblu);
+    border-radius: 5px;
+    text-transform: capitalize ;
+}
+
+.btn-group a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.btn-group button{
+
+    border: none;
+    background: var(--bs-form-valid-color);
+    color: white;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: .4s;
+
+}

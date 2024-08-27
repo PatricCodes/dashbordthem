@@ -1,0 +1,99 @@
+<aside id="bar" class="nav-bar">
+            <div class="header-nav">
+                <img src="../asset/image/back.jpg" alt="logo">
+                <h2>Welcome Saint esprit </h2> 
+                <div class="btn-group">
+                    <a href="">View More</a>
+                </div>
+            </div>
+
+            <div class="menu">
+
+                <ul>
+                    <li><a href="./index.html"> <i class="fa-solid fa-gauge"></i>  <span class="txt"> DashBoard </span>  </a></li>
+                    <li><a href="./form-html/upload.html"><i class="fa-solid fa-upload"></i> <span class="txt"> Image Upload </span> </i></a></li>
+
+                    <div class="drop">
+
+                        <li > <a class="id01" href="#"><i class="fa-solid fa-filter">
+                        </i> <span class="txt"> Option </span> 
+                        <i class="fa-solid fa-angle-down"></i></a></li>
+
+                        <div class="down id01d">
+
+                            <ul>
+                                <li><a href="./page/option-o.html">o`level</a></li>
+                                <li><a href="./page/meg-o.html">MEG(Math,Eco,& Geo)</a></li>
+                                <li><a href="./page/mpg-o.html">MPG(Math,Phys& Geo)</a></li>
+                                
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="drop">
+
+                        <li>
+                            
+                            <a class="id02" href="#">
+                            <i class="fa-solid fa-users"></i>  
+                            <span class="txt"> adminstration </span> 
+                            <i class="fa-solid fa-angle-down"></i></a>
+
+                        </li>
+
+                        <div class="down id0d">
+                            <ul>
+                                <li><a href="./page/staff.html">staff</a></li>
+                                <li><a href="./page/teacher.html">teacher</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="drop">
+                        <li>
+                            
+                            <a class="id03" href="#">
+                                <i class="fa-solid fa-database">
+
+                                </i>  <span class="txt">school data</span> 
+                                <i class="fa-solid fa-angle-down"></i></a></li>
+
+                        <div class="down id03d">
+                            <ul>
+                                <li><a href="./page/school-report.html">school report</a></li>
+                                <li><a href="#">Justification</a></li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+
+
+                   <div class="drop">
+                        <li class="mn">
+
+                            <a class="id04" href="#">
+                            <i class="fa-solid fa-file-circle-plus"></i>  
+                            <span class="txt">Post</span> 
+                            <i class="fa-solid fa-angle-down"></i></a>
+                        </li>
+                        
+                        <div class="down id04d">
+                            <ul>
+                                <li><a href="./page/blog.html">Blog</a></li>
+                                <li><a href="./page/Gallery.html">Gallery</a></li>
+                                <li><a href="./page/burner-update.html">burner-update</a></li>
+                                <li><a href="./page/wl.html">Welcome content</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </ul>
+            </div>
+
+            <div class="log-out">
+               <a href="#"> <i class="fa-solid fa-right-from-bracket"> <span>Log Out</span></i></a>
+            </div>
+
+        </aside>
